@@ -124,6 +124,8 @@
   }
   .shot-ph .ico{font-size:22px; opacity:.55}
   .shot-ph .fname{font-family:var(--mono); font-size:11.5px; opacity:.7}
+  .shot-img{width:100%; height:auto; display:block; border-radius:12px; border:1px solid var(--line);
+    box-shadow:0 8px 24px -12px rgba(0,0,0,.25)}
   .shot-eyebrow{
     font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:.06em;
     text-transform:uppercase; color:var(--accent); margin:0 0 10px;
@@ -158,11 +160,11 @@
   </div>
 </div>
 
-<!-- 화면 살펴보기 — 스크린샷 3장 자리. 각 .shot-ph 를 <img src="..." alt="..."> 로 교체하면 됨 -->
+<!-- 화면 살펴보기 — 실제 앱 스크린샷 3장 -->
 <div class="showcase">
   <div class="shot-row">
     <div class="shot-media">
-      <div class="shot-ph"><span class="ico">📸</span><span class="fname">screenshot-team.png 자리</span></div>
+      <img class="shot-img" src="shots/team.jpg" alt="MYO 팀 목록·팀 만들기 화면"/>
     </div>
     <div class="shot-text">
       <p class="shot-eyebrow">팀 만들기</p>
@@ -172,7 +174,7 @@
   </div>
   <div class="shot-row rev">
     <div class="shot-media">
-      <div class="shot-ph"><span class="ico">📸</span><span class="fname">screenshot-calendar.png 자리</span></div>
+      <img class="shot-img" src="shots/calendar.jpg" alt="MYO 일정·캘린더 화면"/>
     </div>
     <div class="shot-text">
       <p class="shot-eyebrow">공지 · 캘린더</p>
@@ -182,12 +184,12 @@
   </div>
   <div class="shot-row">
     <div class="shot-media">
-      <div class="shot-ph"><span class="ico">📸</span><span class="fname">screenshot-chat.png 자리</span></div>
+      <img class="shot-img" src="shots/attendance.jpg" alt="MYO 출석·근태 화면"/>
     </div>
     <div class="shot-text">
-      <p class="shot-eyebrow">채팅 · 출석</p>
-      <h3>실시간 채팅과 출퇴근 기록까지 한 앱에서</h3>
-      <p>팀 채팅과 개인 메신저, 출퇴근 기록까지 앱 하나로 끝낼 수 있어요.</p>
+      <p class="shot-eyebrow">출근 · 근태</p>
+      <h3>출퇴근부터 근태 기록까지 자동으로</h3>
+      <p>출근·퇴근 버튼 하나로 기록되고, 팀원들의 하루 근무 현황을 한눈에 볼 수 있어요.</p>
     </div>
   </div>
 </div>
